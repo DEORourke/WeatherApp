@@ -1,0 +1,67 @@
+#parent_container {
+	width: 582px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+	background-image: linear-gradient(to bottom right, #88BFFF, #87CEEB);
+	text-align: center;
+}
+
+#controlls {
+	width: 99%;
+	margin: 5px;
+}
+
+#weather_banner {
+	width: 99%;
+	text-align: center;
+}
+
+#current_weather {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 10px;
+}
+
+#arrow_container{
+    right: 5%;
+    bottom: 30%;
+    position: absolute;
+}
+
+#MI_container {
+	float: right;
+	margin-right: 30px;
+}
+
+#MI_container div {
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1px 2px;
+	position: absolute;
+	/* right: 10%; */
+}
+#I_button {
+	transform: translate(5px, -2px);
+	background-color: orange;
+}
+
+#M_button {
+	transform: translate(-5px, 2px);
+	background-color: green;
+}
+
+.in_front {
+	z-index: 1;
+}
+
+.canvas {
+	border: 1px solid black;
+	border-radius: 5px;
+}
